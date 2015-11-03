@@ -1,6 +1,8 @@
 /**
  * @fileOverview Client-side calibration component
  * @author Jean-Philippe.Lambert@ircam.fr
+ * @copyright 2015 IRCAM, Paris, France
+ * @license BSD-3-Clause
  */
 
 'use strict';

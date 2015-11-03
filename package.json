@@ -1,10 +1,11 @@
 {
   "name": "calibration",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Web Audio calibration",
   "authors": [
     "Jean-Philippe.Lambert@ircam.fr"
   ],
+  "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
     "url": "https://github.com/collective-soundworks/calibration"
@@ -24,6 +25,6 @@
   },
   "scripts": {
     "bundle": "gulp",
-    "doc": "jsdoc -c doc/jsdoc.json"
+    "doc": "gulp transpile && jsdoc -c doc/jsdoc.json"
   }
 }
